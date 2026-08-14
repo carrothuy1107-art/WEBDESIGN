@@ -75,3 +75,64 @@ li:hover {
 .yoasobiImage.zoom {
     width: 900px;
 }
+@media screen and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .yoasobiImage {
+        width: 80%;
+    }
+
+    .yoasobiImage.zoom {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    ul {
+        font-size: 15px;
+    }
+
+    .yoasobiImage {
+        width: 100%;
+    }
+
+    .yoasobiImage.zoom {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
