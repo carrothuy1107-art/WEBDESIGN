@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #6c4cff;
+}
+
+
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #6c4cff;
+    padding-bottom: 5px;
+}
+
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+.yoasobi-img {
+    display: block;
+
+    width: 500px;
+    max-width: 100%;
+
+    margin: 20px auto;
+
+    border-radius: 15px;
+}
+
+
+ul {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+li:hover {
+    color: #6c4cff;
+    cursor: pointer;
+}
