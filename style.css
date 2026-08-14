@@ -66,3 +66,12 @@ li:hover {
     color: #6c4cff;
     cursor: pointer;
 }
+
+.yoasobiImage {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yoasobiImage.zoom {
+    width: 900px;
+}
